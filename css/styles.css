@@ -1,3 +1,7 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Urbanist", sans-serif;
+}
 .container{
     max-width: 1142px;
     margin: 0 auto;
@@ -344,7 +348,56 @@ margin-top: 11px;
 text-decoration: none;
 }
 .testimonials{
-    height: 500px
+  margin-top: 95px;
+  margin-bottom: 41px;
+}
+.testimonials-title{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 34px;
+line-height: 121%;
+text-align: center;
+color: #2f2f2f;
+margin-bottom: 47px;
+}
+.testimonials-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 178%;
+text-align: center;
+color: #000;
+max-width: 650px;
+margin: 0 auto;
+}
+.testimonials-img{
+    margin: 0 auto;
+    margin-top: 42px;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+.testimonials-author{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+
+text-align: center;
+color: #000;
+}
+.testimonials-prof{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 246%;
+text-align: center;
+color: #2f2f2f;
+}
+.slick-prev{
+    top: 10%;
+}
+.slick-next{
+    top: 10%;
 }
 .blog{
     background: #eff2f1;
@@ -405,10 +458,17 @@ margin-bottom: 159px;
     align-items: center;
 }
 .footer-part{
-    
-   
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-start;
+   position: relative;
 }
-.footer-part-left{}
+.footer-sofa-img{
+    display: block;
+    position: absolute;
+ top: -200px;
+ right: 0;
+}
 .footer-part-title{
     font-family: var(--font-family);
 font-weight: 600;
@@ -443,16 +503,13 @@ padding-bottom: 10px;
 margin-top: 24px;
 }
 .footer-part-right{
-    position: relative;
+
 }
 .footer-sofa-img{
-    position: absolute;
-    top: 0px;
-    left: 0px;
+ 
 }
 .footer-second-box{
     display: flex;
-    align-items: center;
     margin-top: 138px;
 }
 .footer-second-box-title{
@@ -476,15 +533,22 @@ padding-right: 65px;
     gap: 11px;
     margin-top: 41px;
 }
-
-.footer-media-img{
-background-color: #d9d9d9;
+.footer-media-link{
+    display: flex;
+    background-color: #d9d9d9;
 border-radius: 100%;
-padding: 14px;
+width: 41px;
+height: 41px;
+justify-content: center;
+align-items: center;
+}
+.footer-media-img{
+
 }
 .footer-second-box-right{
     display: flex;
     gap: 87px;
+    margin-top: 50px;
 }
 .footer-box-list{
 
