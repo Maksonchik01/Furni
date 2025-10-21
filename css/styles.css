@@ -5,6 +5,7 @@
 .container{
     max-width: 1142px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 .header{
     background: #3B5D50;
@@ -119,7 +120,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 color: #6a6a6a;
-width: 200px;
+max-width: 200px;
 margin-top: 27px;
 }
 .crafted-btn{
@@ -134,6 +135,7 @@ line-height: 175%;
 text-align: center;
 color: #fff;
 margin-top: 75px;
+display: block;
 }
 .crafted-box-right{
 
@@ -173,16 +175,14 @@ color: #2f2f2f;
     display: flex;
     justify-content: space-between;
 }
-.benefits-box-left{
 
-}
 .benefits-title{
     font-family: var(--font-family);
 font-weight: 600;
 font-size: 34px;
 line-height: 121%;
 color: #2f2f2f;
-width: 261px;
+max-width: 261px;
 }
 .benefits-text{
     font-family: var(--font-family);
@@ -190,7 +190,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 color: #6a6a6a;
-width: 380px;
+max-width: 380px;
 margin-top: 27px;
 }
 .benefits-list{
@@ -217,7 +217,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 157%;
 color: #6a6a6a;
-width: 190px;
+max-width: 190px;
 }
 .benefits-box-right{
     position: relative;

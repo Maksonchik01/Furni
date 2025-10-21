@@ -1,0 +1,124 @@
+@media (max-width: 1300px) {
+  .header-img {
+    display: block;
+    width: 100%;
+  }
+  .header-img-dots {
+    right: 0;
+    display: block;
+    width: 100%;
+    max-width: 260px;
+  }
+}
+@media (max-width: 1180px) {
+  .container {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 1028px) {
+  .crafted-box {
+    flex-direction: column;
+  }
+  .crafted-box-left {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    gap: 50px;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .crafted-text {
+    max-width: 210px;
+  }
+  .benefits-text {
+    max-width: 320px;
+  }
+}
+@media (max-width: 960px){
+    .benefits-box{
+        flex-direction: column;
+    }
+    .benefits-box-left{
+      margin: 0 auto;
+         margin-top: -100px;
+    }
+    .benefits-title{
+       margin: 0 auto;
+       margin-bottom: 30px;
+    }
+    .benefits-text{
+         margin: 0 auto;
+         text-align: center;
+    }
+    .benefits-list{
+flex-wrap: nowrap;
+        gap: 42px;
+        max-width: 380px;
+    }
+.benefits-list-item{
+    width: calc(100% - 42px);
+}
+.benefits-box-right{
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+.benefits-img-dots{
+    top: -26px;
+}
+.benefits-img{
+    margin-top: 26px;
+    width: 100%;
+}
+}
+@media (max-width: 768px) {
+  .header-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .header-box-btn {
+    justify-content: center;
+  }
+  .crafted-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 584px) {
+  .header-nav {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media (max-width: 490px) {
+  .header-img-dots {
+    display: none;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits-list{
+    gap: 42px;
+  }
+ .benefits-list-item{
+width: calc(50% - 42px);
+ }
+}
+@media (max-width: 420px) {
+  .title {
+    font-size: 42px;
+  }
+  .crafted-box-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
